@@ -1,0 +1,11 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "up": "fmbj:blocks/ruby_block_red",
+    "north": "fmbj:blocks/ruby_block_yellow",
+    "south": "fmbj:blocks/ruby_block_yellow",
+    "east": "fmbj:blocks/ruby_block_yellow",
+    "west": "fmbj:blocks/ruby_block_yellow",
+    "down": "fmbj:blocks/ruby_block_blue"
+  }
+}
