@@ -7,6 +7,7 @@ import com.Jo.FirstModEver.blocks.RubyBlock;
 import com.Jo.FirstModEver.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -39,6 +40,9 @@ public class RegistryHandler {
         //Tools
         public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword",()->
                 new SwordItem(ModItemTier.RUBY,2,-2.4F,new Item.Properties().group(First.TAB)));
+
+        public static final RegistryObject<PickaxeItem> PUBY_PICKAXE = ITEMS.register("ruby_pickaxe",()->
+         new PickaxeItem(ModItemTier.RUBY,2,0F,new Item.Properties().group(First.TAB)));
 
 
 }
