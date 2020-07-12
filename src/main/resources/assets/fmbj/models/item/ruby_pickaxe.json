@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fmbj:items/purple_apple"
+    "layer0": "fmbj:items/ruby_pickaxe"
   }
 }

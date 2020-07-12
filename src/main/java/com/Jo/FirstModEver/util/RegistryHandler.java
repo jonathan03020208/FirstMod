@@ -6,6 +6,7 @@ import com.Jo.FirstModEver.armor.ModArmorMaterial;
 import com.Jo.FirstModEver.blocks.BlockItemBase;
 import com.Jo.FirstModEver.blocks.RubyBlock;
 import com.Jo.FirstModEver.items.ItemBase;
+import com.Jo.FirstModEver.items.PurpleApple;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
@@ -30,7 +31,7 @@ public class RegistryHandler {
 
         //Items
         public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
-        public static final RegistryObject<Item> PURPLE_APPLE=ITEMS.register("purple_apple",ItemBase::new);
+        public static final RegistryObject<PurpleApple> PURPLE_APPLE=ITEMS.register("purple_apple",PurpleApple::new);
 
         //Blocks
         public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
