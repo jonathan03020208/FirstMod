@@ -54,7 +54,7 @@ public class RegistryHandler {
         public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",()->
                 new ArmorItem(ModArmorMaterial.RUBY , EquipmentSlotType.CHEST , new Item.Properties().group(First.TAB)));
 
-        public static final RegistryObject<ArmorItem> RUBY_LEGGINS = ITEMS.register("ruby_leggins",()->
+        public static final RegistryObject<ArmorItem> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",()->
                 new ArmorItem(ModArmorMaterial.RUBY , EquipmentSlotType.LEGS , new Item.Properties().group(First.TAB)));
 
         public static final RegistryObject<ArmorItem> RUBY_BOOTS = ITEMS.register("ruby_boots",()->
