@@ -4,6 +4,10 @@
 "block.fmbj.ruby_block": "Block of Ruby",
 "item.fmbj.ruby_sword": "Ruby Sword",
 "item.fmbj.ruby_pickaxe": "Ruby Pickaxe",
+"item.fmbj.ruby_helmet": "Ruby Helmet",
+"item.fmbj.ruby_chestplate":"Ruby Chestplate",
+"item.fmbj.ruby_leggings":"Ruby Leggins",
+"item.fmbj.ruby_boots":"Ruby Boots",
 "itemGroup.meaningless_mod":"Meaningless Mod"
 
 }

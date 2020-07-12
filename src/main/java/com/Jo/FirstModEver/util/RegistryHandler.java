@@ -2,10 +2,13 @@ package com.Jo.FirstModEver.util;
 
 import com.Jo.FirstModEver.First;
 import com.Jo.FirstModEver.Tools.ModItemTier;
+import com.Jo.FirstModEver.armor.ModArmorMaterial;
 import com.Jo.FirstModEver.blocks.BlockItemBase;
 import com.Jo.FirstModEver.blocks.RubyBlock;
 import com.Jo.FirstModEver.items.ItemBase;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
@@ -44,5 +47,16 @@ public class RegistryHandler {
         public static final RegistryObject<PickaxeItem> PUBY_PICKAXE = ITEMS.register("ruby_pickaxe",()->
          new PickaxeItem(ModItemTier.RUBY,2,0F,new Item.Properties().group(First.TAB)));
 
+        //Armor
+        public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet",()->
+                new ArmorItem(ModArmorMaterial.RUBY , EquipmentSlotType.HEAD , new Item.Properties().group(First.TAB)));
 
+        public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",()->
+                new ArmorItem(ModArmorMaterial.RUBY , EquipmentSlotType.CHEST , new Item.Properties().group(First.TAB)));
+
+        public static final RegistryObject<ArmorItem> RUBY_LEGGINS = ITEMS.register("ruby_leggins",()->
+                new ArmorItem(ModArmorMaterial.RUBY , EquipmentSlotType.LEGS , new Item.Properties().group(First.TAB)));
+
+        public static final RegistryObject<ArmorItem> RUBY_BOOTS = ITEMS.register("ruby_boots",()->
+                new ArmorItem(ModArmorMaterial.RUBY , EquipmentSlotType.FEET , new Item.Properties().group(First.TAB)));
 }

@@ -9,14 +9,14 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
 
     RUBY(3,1000,9.0F,3.0F,15,() -> {
-        return Ingredient.fromItems(RegistryHandler.RUBY_SWORD.get());
+        return Ingredient.fromItems(RegistryHandler.RUBY.get());
     });
 
     private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
     private final float attackDamage;
-    private final int enchatability;
+    private final int enchantability;
     private final Supplier<Ingredient> repairMaterial;
 
     ModItemTier(int harvestLevel,int maxUses,float efficiency,float attackDamage,int enchatability,Supplier<Ingredient> repairMaterial){
@@ -24,7 +24,7 @@ public enum ModItemTier implements IItemTier {
             this.maxUses = maxUses;
             this.efficiency = efficiency;
             this.attackDamage = attackDamage;
-            this.enchatability = enchatability;
+            this.enchantability = enchatability;
             this.repairMaterial = repairMaterial;
 
 
@@ -52,7 +52,7 @@ public enum ModItemTier implements IItemTier {
 
     @Override
     public int getEnchantability() {
-        return enchatability;
+        return enchantability;
     }
 
     @Override
